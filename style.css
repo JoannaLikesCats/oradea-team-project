@@ -1,0 +1,90 @@
+body {
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Space around everything */
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark background */
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px auto; /* Center it horizontally + margin bottom */
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 5px; /* make space between squares much smaller */
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  td {
+    padding: 5px; /* much smaller inside each box */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px;
+
+  }
+  
+  img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  span {
+    margin: 0;
+  }
+  
+
+  .team-box {
+    background-color: rgba(0, 0, 0, 0.5); /* same grey as other elements */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* default text color */
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .team-box ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .team-box li {
+    margin: 5px 0; /* Small space between names */
+    font-size: 18px;
+  }
+  
+  /* Individual colors */
+  .cosmin {
+    color: blue;
+  }
+  
+  .paula {
+    color: black;
+  }
+  
+  .ioana {
+    color: pink;
+  }
+  
+  .radu
+  {color:red;
+}
+  
+
